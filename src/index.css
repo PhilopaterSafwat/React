@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --secound-color: #2c3e50;
+    --main-color: #1abc9c;
+}
+
+.nav {
+    background-color: var(--secound-color);
+}
+
+.active {
+    background-color: var(--main-color);
+}
+footer{
+    background-color: var(--secound-color);
+}
+.copyright{
+    background-color: #1a252f;
+}
+.main{
+    background-color: var(--main-color);
+}
+.bg-secound-color{
+    background-color: var(--secound-color);
+}
+.color-secound-color{
+    color: var(--secound-color);
+}
+.inner:hover>.layout{
+    opacity: 1;
+}
+.layout{
+    background-color: #1abc9ce5 ;
+    color: white;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+
+form button{
+    background-color: var(--main-color);
+    padding: 10px;
+    @apply rounded-md text-white
+}
